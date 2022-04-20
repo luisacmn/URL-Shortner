@@ -1,6 +1,6 @@
 # URL-Shortner
 Used third-party API to make this web app that allows users to paste and shorten long URLs.
-[Link]("https://luisacmn.github.io/URL-Shortner/")
+[Link](https://luisacmn.github.io/URL-Shortner/)
 
 ## Benefits
 Large and small business use shortened URLs to share information, sell products and spread content among leads and customers.
