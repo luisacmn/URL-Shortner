@@ -1,0 +1,16 @@
+body{
+    text-align: center;
+}
+
+.input{
+    width:400px;
+    margin-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: inherit;
+}
