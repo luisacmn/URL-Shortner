@@ -1,7 +1,7 @@
 # Shortly - URL shortening API
 
 ## About
-Allows users to shorten URL's. 
+Allows users to short URLs. 
 
 ## Links
 - Solution URL: [Code](https://github.com/luisacmn/URL-Shortner/tree/luisacmn-patch-1)
@@ -39,7 +39,7 @@ Users should be able to:
 ## My process
 
 ### Built with
-- Computational thinking (CT) before start to code
+- Computational thinking (CT) before start coding
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
