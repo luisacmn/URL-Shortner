@@ -81,8 +81,6 @@ header{
     margin-bottom: 30px;
 }
 
-
-
 .image-box{
     overflow: hidden;
 }
@@ -133,7 +131,6 @@ input{
 
 .advanced-statistics .title{
     text-align: center;
-    width: 500px;
     margin: auto;
 }
 
@@ -222,4 +219,106 @@ footer li{
 
 .attribution a{
     color: hsl(228, 45%, 44%);
+}
+
+
+/* Small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) { 
+    
+    .navbar{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .input{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .image-box{
+        padding-right: 20px;
+    }
+
+    .short-btn {
+        width: 100%;
+    }
+
+    .shorten-bar{
+        padding: 20px;
+    }
+
+    #nav-btn{
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .navbar-collapse{
+        text-align: center;
+        padding: 30px;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+
+    .navbar-toggler {
+        border: none;
+    }
+
+   .container{
+       margin: 0;
+       padding: 10px 30px;
+   }
+
+   .info-row{
+    flex-wrap: wrap;
+   }
+
+   .title{
+       text-align: center;
+   } 
+
+   .container-fluid{
+       margin: 0;
+       padding:0;
+   }
+
+   header{
+       flex-wrap: wrap;
+       text-align: center;
+       display: flex; 
+       flex-direction: column-reverse;
+       
+   }
+
+   .title-box{
+        padding: 30px;
+        box-sizing: border-box;
+        overflow: auto;
+   }
+
+   .title-box h1{
+       box-sizing: border-box;
+   }
+
+   h1{
+       font-size: 40px;
+   }
+
+   .header-img{
+       width: 120%;
+        height: 350px;
+        margin-left: 30px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+   }
+   
+   h3{
+       font-size: 30px;
+   }
+
+   footer li , footer p{
+       text-align: center;
+   }
+
 }
